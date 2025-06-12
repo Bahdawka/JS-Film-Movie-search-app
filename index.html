@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Film Movie search app</title>
+  <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Movie search app</h1>
+    <div class="search">
+      <div class="search__group search__group--input">
+        <label class="search__label-input" for="search">Search any movie</label>
+        <input class="search__input" type="text" id="search" placeholder="Provide movie name">
+      </div>
+
+      <div class="search__group search__group--checkbox">
+        <input class="search__label" type="checkbox" id="checkbox">
+        <label class="search__label-checkbox" for="checkbox">Add movies to existed list</label>
+      </div>
+
+    </div>
+    <div id="movies-list" class="movies"></div>
+  </div>
+
+  <script src="./src/js/main.js" type="module"></script>
+
+</body>
+
+</html>
